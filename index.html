@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Spa - Салон красоты премиум класса</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="script.js"></script> -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo"><i class="fas fa-spa"></i>Salon spa</a>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#" class="active">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#team">Команда</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#booking">Запись</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Ваша красота - наше вдохновение</h1>
+            <p>Премиальный салон красоты, где каждая деталь создана для вашего комфорта и совершенства</p>
+            <a href="#booking" class="btn">Записаться онлайн</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>О Нас</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="images/salon/header.jpg" alt="Интерьер салона">
+                </div>
+                <div class="about-text">
+                    <h2>Добро пожаловать в Salon Spa</h2>
+                    <p>Салон красоты Salon Spa - это место, где встречаются профессионализм, роскошь и индивидуальный подход. Мы создали пространство, где вы сможете полностью расслабиться и доверить свою красоту лучшим мастерам индустрии.</p>
+                    <p>Наша философия основана на трех принципах: качество, инновации и забота. Мы используем только профессиональную косметику премиальных брендов и самое современное оборудование.</p>
+                    <p>Каждый наш гость получает индивидуальную консультацию и программу ухода, разработанную с учетом особенностей и пожеланий. Мы стремимся не просто выполнить услугу, а создать для вас незабываемый опыт преображения.</p>
+                    <a href="#services" class="btn btn-outline">Наши услуги</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- !-- Services Section -->
+  <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши Услуги</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Парикмахерские услуги</h3>
+                    <p>Стрижки любой сложности, окрашивание, укладки, кератиновое выпрямление, ламинирование волос.</p>
+                    <span class="price"></span>
+                    <a href="#booking" class="btn">Записаться</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Косметология</h3>
+                    <p>Профессиональные уходы за лицом, чистки, пилинги, инъекционные методики, аппаратная косметология.</p>
+                    <span class="price"></span>
+                    <a href="#booking" class="btn">Записаться</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3>Маникюр и Педикюр</h3>
+                    <p>Классический, аппаратный, комбинированный маникюр и педикюр. Покрытие гель-лаком, наращивание.</p>
+                    <span class="price"></span>
+                    <a href="#booking" class="btn">Записаться</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Визаж</h3>
+                    <p>Дневной, вечерний, свадебный макияж. Обучение визажу, бровистика, коррекция и окрашивание бровей.</p>
+                    <span class="price"></span>
+                    <a href="#booking" class="btn">Записаться</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3>Эпиляция</h3>
+                    <p>Восковая, сахарная эпиляция. Лазерная эпиляция всех зон. Консультация и индивидуальный подход.</p>
+                    <span class="price"></span>
+                    <a href="#booking" class="btn">Записаться</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user-alt"></i>
+                    </div>
+                    <h3>Массаж</h3>
+                    <p>Классический, расслабляющий, антицеллюлитный, лечебный массаж. Индивидуальные программы.</p>
+                    <span class="price"></span>
+                    <a href="#booking" class="btn">Записаться</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--! Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наша Команда</h2>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="images/professionals/w3.jpg" alt="Мария Семенова">
+                    </div>
+                    <div class="member-info">
+                        <h3>Мария Семенова</h3>
+                        <span class="member-position">Топ-стилист</span>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-vk"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="images/professionals/woman3.avif" alt="Анна Иванова">
+                    </div>
+                    <div class="member-info">
+                        <h3>Анна Иванова</h3>
+                        <span class="member-position">Косметолог</span>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-vk"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="images/professionals/w1.jpg" alt="Елена Петрова">
+                    </div>
+                    <div class="member-info">
+                        <h3>Елена Петрова</h3>
+                        <span class="member-position">Визажист</span>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-vk"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="images/professionals/w2.jpg" alt="Ольга Сидорова">
+                    </div>
+                    <div class="member-info">
+                        <h3>Ольга Сидорова</h3>
+                        <span class="member-position">Мастер маникюра</span>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-vk"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши Работы</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" onclick="openModal('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?ixlib=rb-4.0.3')">
+                    <img src="images/salon/image1.jpg" alt="Работа салона">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3')">
+                    <img src="images/salon/image2.jpg" alt="Работа салона">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('https://images.unsplash.com/photo-1622288432450-277d0b6b1dc6?ixlib=rb-4.0.3')">
+                    <img src="images/salon/image3.jpg" alt="Работа салона">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-4.0.3')">
+                    <img src="images/salon/image4.jpg" alt="Работа салона">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?ixlib=rb-4.0.3')">
+                    <img src="images/salon/image5.jpg" alt="Работа салона">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3')">
+                    <img src="images/salon/image6.jpg" alt="Работа салона">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3')">
+                    <img src="images/salon/image7.jpg" alt="Работа салона">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="gallery-item" onclick="openModal('https://images.unsplash.com/photo-1560066984-138dadb4c035?ixlib=rb-4.0.3')">
+                    <img src="images/salon/image8.jpg" alt="Работа салона">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Отзывы Клиентов</h2>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <div class="client-img">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3" alt="Анастасия К.">
+                    </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="quote">"Я в восторге от салона Salon Spa! Мария сделала мне идеальную стрижку, которую я так долго искала. Атмосфера салона очень уютная, персонал внимательный и профессиональный. Обязательно вернусь снова!"</p>
+                    <p class="client-name">Анастасия К.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--! FORM                                   Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="section-title">
+                <h2>Онлайн Запись</h2>
+            </div>
+            <form id="contact-form" class="booking-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Имя *</label>
+                        <input id="name" type="text" name="name" class="form-control" placeholder="Ваше имя" required>
+                        <div class="error-message" id="nameError">Пожалуйста, введите ваше имя</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон *</label>
+                        <input id="phone" type="tel" name="phone"  class="form-control" placeholder="90 000 00 00">
+                        <div class="error-message" id="phoneError">Пожалуйста, введите корректный номер телефона</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Комментарий</label>
+                    <textarea id="message" name="message" class="form-control"  placeholder="Ваши пожелания или дополнительная информация"></textarea>
+                </div>
+                <button type="submit" class="btn">Отправить заявку</button>
+                <div class="success-message" id="success-message">
+                <div id="status" class="success-message"><i class="fas fa-check-circle"></i></div></div>
+            </form>
+        </div>
+    </section>
+<!-- ! -->
+<!-- <form id="contact-form">
+  <input type="text" name="name" placeholder="Имя" required />
+  <input type="tel" name="phone" placeholder="Телефон" required />
+  <textarea name="message" placeholder="Сообщение" required></textarea>
+  <button type="submit">Отправить</button>
+  <div id="status"></div>
+</form> -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Контакты</h2>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Адрес</h3>
+                            <p>г. Ташкент, р. Юнусабад, Амир Темур</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Телефон</h3>
+                            <p>+998 (90) 939 12 16</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>lezenuz@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Часы работы</h3>
+                            <p>Пн-Пт: 9:00 - 21:00</p>
+                            <p>Сб-Вс: 10:00 - 20:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3253.798651212723!2d69.27941581221789!3d41.31164679888617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1748951529014!5m2!1sru!2s" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <a href="#" class="logo" style="color: white; margin-bottom: 20px; display: block;"><i class="fas fa-spa"></i>Salon Spa</a>
+                    <p>Премиальный салон красоты, где каждый клиент получает индивидуальный подход и безупречный сервис.</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/web_lezen"><i class="fab fa-instagram"></i></a>
+                        <a href="https://t.me/web_lezen"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Услуги</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Парикмахерские услуги</a></li>
+                        <li><a href="#">Косметология</a></li>
+                        <li><a href="#">Маникюр и педикюр</a></li>
+                        <li><a href="#">Визаж</a></li>
+                        <li><a href="#">Эпиляция</a></li>
+                        <li><a href="#">Массаж</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Быстрые ссылки</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#team">Команда</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                        <li><a href="#booking">Онлайн запись</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#">Акции</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Подписка</h3>
+                    <p>Подпишитесь на наши новости и получите скидку 10% на первую услугу!</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Ваш email" style="margin-bottom: 10px;">
+                            <button type="submit" class="btn">Подписаться</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025  Salon Spa - Beauty Salon. Все права защищены!</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <span class="close-modal" id="closeModal">&times;</span>
+            <div class="modal-img">
+                <img id="modalImage" src="" alt="">
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
