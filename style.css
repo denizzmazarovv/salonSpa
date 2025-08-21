@@ -437,7 +437,7 @@ header {
 
 /*  Testimonials Section */
 .testimonials {
-  display: flex;
+  padding: 40px;
   background-color: var(--secondary);
 }
 
