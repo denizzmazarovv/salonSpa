@@ -435,14 +435,17 @@ header {
   font-size: 40px;
 }
 
-/* Testimonials Section */
+/*  Testimonials Section */
 .testimonials {
+  display: flex;
   background-color: var(--secondary);
 }
 
 .testimonials-container {
-  max-width: 45vw;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr));
+  gap: 2rem; /* расстояние между отзывами */
+  justify-content: center;
 }
 
 .testimonial {
